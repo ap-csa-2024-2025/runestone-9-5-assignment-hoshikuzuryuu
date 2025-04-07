@@ -16,5 +16,9 @@ public class Main
         // cart.add(new DiscountedItem("apples", 1.35, 0.25));
 
         cart.printOrder();
+
+        Animal foo = new Dog("bill", "bulldog");
+        foo.matingCall();
+        foo.wagTail();
     }
 }
